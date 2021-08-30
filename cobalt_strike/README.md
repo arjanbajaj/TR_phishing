@@ -7,8 +7,8 @@ This directory contains research and reporting related to Cobalt Strike, a threa
 ## Indicators :biohazard:
 Cobalt Strike indicators provided as-is from IronNet's Threat Research Teams. The indicators are presented as follows:
 * [`Team Servers`](#Team-Servers-joystick): Cobalt Strike Team Servers identified in the wild.
-* [`Beacon Configs`](#Beacon-Configs-page-facing-up): Extracted beacon configs.
-* [`C2 Hosts`](#C2-Hosts-loud-sound): C2 Hosts extracted from the C2 server field in beacon configs.
+* [`Beacon Configs`](#Beacon-Configs-page_facing_up): Extracted beacon configs.
+* [`C2 Hosts`](#C2-Hosts-loud_sound): C2 Hosts extracted from the C2 server field in beacon configs.
 
 ### How Collections are Performed :pencil:
 IronNet’s Threat Analysis team routinely scans the public IPv4 space on top ports for cobalt strike servers. It is 
