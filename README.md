@@ -9,6 +9,7 @@ This repository contains IronNet's Threat Research.
 Project                                | Description
 ---------------------------------------|------------------------------------------------------------------------
 [`Cobalt Strike`](./cobalt_strike)     | Research and indicators for Cobalt Strike
+[`phishing`](./phishing)               | Research and indicators related to phishing
 
 
 ## Contributors :busts_in_silhouette:
