@@ -16,3 +16,5 @@ Files                                                                   | Descri
 [`phish_domains.txt`](./phish_domains.txt)                              | Final destination domains hosting phishing kit
 [`phish_domains_with_datetime.csv`](./phish_domains_with_datetime.csv)  | Final destination domains hosting phishing kit with datetime
 
+### Warning :warning:
+Some domains used to host the phishing kit are compromised domains. Use at your own risk when implementing block rules.
