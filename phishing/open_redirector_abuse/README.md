@@ -3,18 +3,28 @@
 It’s no surprise that phishing continues to be the main access vector when targeting everything from small to large 
 businesses. Our team has continued the research that [Microsoft](https://www.microsoft.com/security/blog/2021/08/26/widespread-credential-phishing-campaign-abuses-open-redirector-links/) has published in order to further highlight some 
 behavior we’ve been observing in our customer environments. The purpose of this work is to share the results of what 
-IronNet has seen, and to allow others to build on this research. We’ve divided our research into three groups:
-* Customer Relationship Management (CRM) platforms allowing open redirects
-* Compromised websites redirecting to reCAPTCHA
-* Random reCAPTCHAs
+IronNet has seen, and to allow others to build on this research. We’ve divided our research into two groups:
+* Phishing domains abusing open redirectors in conjunction with reCAPTCHA
+* Phishing domains serving ExRobotos phish kit and abusing open redirectors
 
-Full research can be found here: [Blog Post](https://www.ironnet.com/blog/gone-phishing)
+Full research on abusing open redirectors in conjunction with reCAPTCHA: [Blog Post](https://www.ironnet.com/blog/gone-phishing)
 
-Files                                                                   | Description
-------------------------------------------------------------------------|-----------------------------------------------------------
-[`urlscan_notebook`](./urlscan_notebook.ipynb)                          | Jupyter notebook for gathering final destination domains
-[`phish_domains.txt`](./phish_domains.txt)                              | Final destination domains hosting phishing kit
-[`phish_domains_with_datetime.csv`](./phish_domains_with_datetime.csv)  | Final destination domains hosting phishing kit with datetime
+Full research on phishing domains serving ExRobotos phish kit and abusing open redirectors coming soon...
+
+
+Files                                                                                     | Description
+------------------------------------------------------------------------------------------|---------------------------------------------------------------------
+[`urlscan_notebook`](./urlscan_notebook.ipynb)                                            | Jupyter notebook for gathering final destination domains
+[`phish_domains_abusing_reCAPTCHA.txt`](./phish_domains.txt)                              | Final destination domains abusing reCAPTCHA and hosting phish kit
+[`phish_domains_abusing_reCAPTCHA_with_datetime.csv`](./phish_domains_with_datetime.csv)  | Final destination domains abusing reCAPTCHA and hosting phish kit
+[`phish_domains_exrobotos.txt`](./phish_domains.txt)                                      | Final destination domains serving ExRobotos phish kit
+[`phish_domains_exrobotos_with_datetime.csv`](./phish_domains_with_datetime.csv)          | Final destination domains serving ExRobotos phish kit
+
 
 ### Warning :warning:
 Some domains used to host the phishing kit are compromised domains. Use at your own risk when implementing block rules.
+
+
+### Acknowledgments
+* ![Microsoft 365 Defender Threat Intelligence Team](https://www.microsoft.com/security/blog/2021/08/26/widespread-credential-phishing-campaign-abuses-open-redirector-links/)
+* ![Jake | JCyberSec_](https://twitter.com/JCyberSec_)
