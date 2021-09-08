@@ -12,13 +12,13 @@ Full research on abusing open redirectors in conjunction with reCAPTCHA: [Blog P
 Full research on phishing domains serving ExRobotos phish kit and abusing open redirectors coming soon...
 
 
-Files                                                                                     | Description
-------------------------------------------------------------------------------------------|---------------------------------------------------------------------
-[`urlscan_notebook`](./urlscan_notebook.ipynb)                                            | Jupyter notebook for gathering final destination domains
-[`phish_domains_abusing_reCAPTCHA.txt`](./phish_domains.txt)                              | Final destination domains abusing reCAPTCHA and hosting phish kit
-[`phish_domains_abusing_reCAPTCHA_with_datetime.csv`](./phish_domains_with_datetime.csv)  | Final destination domains abusing reCAPTCHA and hosting phish kit
-[`phish_domains_exrobotos.txt`](./phish_domains.txt)                                      | Final destination domains serving ExRobotos phish kit
-[`phish_domains_exrobotos_with_datetime.csv`](./phish_domains_with_datetime.csv)          | Final destination domains serving ExRobotos phish kit
+Files                                                                                                       | Description
+------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------
+[`urlscan_notebook`](./urlscan_notebook.ipynb)                                                              | Jupyter notebook for gathering final destination domains
+[`phish_domains_abusing_reCAPTCHA.txt`](./phish_domains_abusing_recaptcha.txt)                              | Final destination domains abusing reCAPTCHA and hosting phish kit
+[`phish_domains_abusing_reCAPTCHA_with_datetime.csv`](./phish_domains_abusing_recaptcha_with_datetime.csv)  | Final destination domains abusing reCAPTCHA and hosting phish kit
+[`phish_domains_exrobotos.txt`](./phish_domains_exrobotos.txt)                                              | Final destination domains serving ExRobotos phish kit
+[`phish_domains_exrobotos_with_datetime.csv`](./phish_domains_exrobotos_with_datetime.csv)                  | Final destination domains serving ExRobotos phish kit
 
 
 ### Warning :warning:
