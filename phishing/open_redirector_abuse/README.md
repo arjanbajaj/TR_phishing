@@ -26,5 +26,5 @@ Some domains used to host the phishing kit are compromised domains. Use at your 
 
 
 ### Acknowledgments
-* ![Microsoft 365 Defender Threat Intelligence Team](https://www.microsoft.com/security/blog/2021/08/26/widespread-credential-phishing-campaign-abuses-open-redirector-links/)
-* ![Jake | JCyberSec_](https://twitter.com/JCyberSec_)
+* [Microsoft 365 Defender Threat Intelligence Team](https://www.microsoft.com/security/blog/2021/08/26/widespread-credential-phishing-campaign-abuses-open-redirector-links/)
+* [Jake | JCyberSec_](https://twitter.com/JCyberSec_)
