@@ -4,6 +4,7 @@ Overview
 =========
 This directory contains research and reporting related to Cobalt Strike, a threat emulation framework. 
 
+![Cobalt Strike Dashboard](./imgs/2021-10-11.png)
 
 ## Indicators :biohazard:
 Cobalt Strike indicators provided as-is from IronNet's Threat Research Teams. The indicators are presented as follows:
@@ -29,7 +30,7 @@ called checksum8 to serve the 32-bit and 64-bit versions of the payload. Below i
 value for a 32-bit and 64-bit  payload respectively. Querying a Cobalt Strike server that has Metasploit compatibility 
 enabled, with those HTTP paths, should return us a respective payload. 
 
-![Probing Team Server](./probing-server.png)
+![Probing Team Server](./imgs/probing-server.png)
 
 **Note:** We use a common user-agent string because Cobalt Strike typically filters abnormal user-agents. 
 
