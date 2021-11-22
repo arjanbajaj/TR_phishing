@@ -4,7 +4,7 @@ Overview
 =========
 This directory contains research and reporting related to Cobalt Strike, a threat emulation framework. 
 
-![Cobalt Strike Dashboard](./imgs/2021-11-15.png)
+![Cobalt Strike Dashboard](./imgs/2021-11-22.png)
 
 ## Indicators :biohazard:
 Cobalt Strike indicators provided as-is from IronNet's Threat Research Teams. The indicators are presented as follows:
