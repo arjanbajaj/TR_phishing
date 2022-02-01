@@ -1,5 +1,14 @@
 # Cobalt Strike 
 
+## :warning: Update 2022-01-31
+We have recently undergone a change to our Cobalt Strike data format. You will notice that field names are now 
+appropriately mapped to their position in a Malleable Profile.
+
+**Format**
+```
+beacon\.([block]\.+)field
+```
+
 Overview
 =========
 This directory contains research and reporting related to Cobalt Strike, a threat emulation framework. 
@@ -54,13 +63,13 @@ Extracted beacon configs in `JSON` format.
 
 #### Special fields
 Along with the typical fields you would expect to be extracted from Cobalt Strike beacons, we include the following:
-* `jarm`: JARM fingerprint of the Team Server that served us the beacon.
-* `C2Host`: A *list* of command and control hosts extracted from the `C2Server` field in order.
-* `HttpGetPath`: A *list* of HTTP GET Paths extracted from the `C2Server` field in order.
-* `payload_md5`: MD5 hash of beacon
-* `payload_sha1`: SHA1 hash of beacon
-* `payload_sha256`: SHA256 hash of beacon
-* `payload_size`: Size of beacon (bytes)
+* `tls.jarm`: JARM fingerprint of the Team Server that served us the beacon.
+* `beacon.c2.host`: A *list* of command and control hosts extracted from the `C2Server` field in order.
+* `beacon.http-get.uri`: A *list* of HTTP GET Paths extracted from the `C2Server` field in order.
+* `beacon.payload.md5`: MD5 hash of beacon
+* `beacon.payload.sha1`: SHA1 hash of beacon
+* `beacon.payload.sha256`: SHA256 hash of beacon
+* `beacon.payload.size`: Size of beacon (bytes)
 
 
 ## Help / Contact Us :construction_worker:
