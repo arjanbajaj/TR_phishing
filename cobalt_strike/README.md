@@ -6,7 +6,7 @@ appropriately mapped to their position in a Malleable Profile.
 
 **Format**
 ```
-beacon\.([block]\.+)field
+beacon\.([block]\.)+field
 ```
 
 Overview
