@@ -1,4 +1,4 @@
-# IronNet Threat Research :detective:
+# Threat Research - Mainly phishing domains seen in the wild, for Financial Institutions.
 
 Overview
 =========
